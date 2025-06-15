@@ -85,7 +85,7 @@ a{
 }
 .caixa{
 	position: relative;
-	width:33%;
+	width:30%;
 	float:left;
 }
 .caixa:first-child{
