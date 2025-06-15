@@ -61,10 +61,10 @@ a{
 	padding: 10px;
 }
 .logo_caixa{
-	width:80%;
+	width:70%;
 	float:left;
 	text-align: left;
-	margin-left:10%;
+	margin-left:15%;
 }
 .logo_img{
 	height: auto;
@@ -72,7 +72,7 @@ a{
 }
 
 .menu_caixa{
-	width: 10%;
+	width: 15%;
 	float:right;
 	font-size:30px;
 	cursor:pointer;
