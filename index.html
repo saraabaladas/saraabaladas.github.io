@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css" >
+	<title>iTEK</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+  	// Add smooth scrolling to all links
+  	$("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  	});
+	});
+	</script>
+</head>
+
+<body>
+<div class="caixa">
+	<div class="cabecalho">
+		<div class="logo">
+			<img src="imagens/logo.png">
+		</div>
+		<div id="main_menu">
+			<a href="index.html">HOME</a>
+			<a href="about.html">ABOUT</a>
+			<a href="services.html">SERVICES</a>
+			<a href="contacts.html">CONTACTS</a>
+		</div>
+	<div class="limpa"></div>
+	</div>
+	<div id="banner">
+		<div id="bannerin">
+		<h1>MacBook, iPad & iPhone Repair</h1>
+		<p>Come to our store or mail your device to us and we will fix your problem!</p>
+		<p><a href="#servicos">&#8964;</a></p>
+		</div>
+	</div>
+
+	<div id="servicos">
+	<div class="servico">
+		<img src="imagens/image1.jpg">
+		<div class="texto_servico">
+			<h2>Reparação iMac</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+		</div>
+	</div>
+	<div class="servico">
+		<img src="imagens/image2.jpg">
+		<div class="texto_servico">
+			<h2>Reparação Macbook</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+		</div>
+	</div>
+	<div class="servico">
+		<img src="imagens/image3.jpg">
+		<div class="texto_servico">
+			<h2>Reparação iPad</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+		</div>
+	</div>
+	<div class="servico">
+		<img src="imagens/image4.jpg">
+		<div class="texto_servico">
+			<h2>Reparação iPhone</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+		</div>
+	</div>
+	</div>
+	<div class="limpa"></div>
+	<div id="rodape">
+		iTEK &#169; All rights reserved
+	</div>
+</div>
+
+
+</body>
+</html>
