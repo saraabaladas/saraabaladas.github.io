@@ -52,12 +52,10 @@ a{
 }
 
 .pagina{
-	width: 100%;
 	margin: 0 auto 0 auto;
 }
 
 .cabecalho{
-	width: 100%;
 	background-color: none;
 	align-content:center;
 	padding: 10px;
@@ -155,10 +153,3 @@ a{
 
 
   }
-
-
-
-
-
-
-
