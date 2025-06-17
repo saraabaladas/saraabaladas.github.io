@@ -85,11 +85,11 @@ a{
 }
 .caixa{
 	position: relative;
-	width:33.3%;
+	width:30%;
 	float:left;
 }
 .caixa:first-child{
-	margin-left:0px;
+	margin-left:5%;
 }
 .img_caixa{
 	width: 100%;
