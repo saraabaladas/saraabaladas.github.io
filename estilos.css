@@ -81,15 +81,17 @@ a{
 
 
 .caixas{
+	text-align: center;
+	width:80%;
 	margin-top:100px;
 }
 .caixa{
 	position: relative;
-	width:25%;
+	width:33,3%;
 	float:left;
 }
 .caixa:first-child{
-	margin-left:12,5%;
+	margin-left:0px;
 }
 .img_caixa{
 	width: 100%;
