@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css" >
+	<title>SARA ABALADAS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	function openNav() {
+  		document.getElementById("menu").style.width = "100%";
+	}
+	function closeNav() {
+  		document.getElementById("menu").style.width = "0%";
+	}
+	$(document).ready(function(){
+  	// Add smooth scrolling to all links
+  	$("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  	});
+	});
+	</script>
+</head>
+
+<body>
+<div class="pagina">
+	<div id="menu" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+		  <a href="#">Sobre mim</a>
+		  <a href="#">Fotografia</a>
+		  <a href="#">Desenho</a>
+		</div>
+	  </div>
+	<div class="cabecalho">
+		<div class="cabecalho_b"> </div>
+		<div class="logo_caixa"><img class="logo_img" src="imagens/logo.png"></div>
+		<div class="menu_caixa"><span onclick="openNav()">&#9776;</span></div>
+		<div class="limpa"></div>
+	</div>
+	<div id="caixas">
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0007.jpg">
+			<div class="caixa_texto">
+				<h2>Fotografia</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0078.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0080.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho Digital</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="caixas">
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0119.jpg">
+			<div class="caixa_texto">
+				<h2>Fotografia</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0866.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0866.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho Digital</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="caixas">
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0612.JPG">
+			<div class="caixa_texto">
+				<h2>Fotografia</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0620.JPG">
+			<div class="caixa_texto">
+				<h2>Desenho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0168.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho Digital</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="caixas">
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0914.jpg">
+			<div class="caixa_texto">
+				<h2>Fotografia</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_1083.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_1100.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho Digital</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="caixas">
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/sara_3.JPG">
+			<div class="caixa_texto">
+				<h2>Fotografia</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0007.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+	
+		<div class="caixa">
+			<img class="img_caixa" src="imagens/_MG_0119.jpg">
+			<div class="caixa_texto">
+				<h2>Desenho Digital</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta lorem. Nullam pulvinar est sit amet lacinia volutpat. Vestibulum magna</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="limpa"></div>
+
+	<div id="rodape">
+		SARA ABALADAS &#169; 2025 - Portfólio criado para candidatura - Licenciatura Artes Visuais e Tecnologias - ESELX - IPL
+	</div>
+</div>
+
+
+</body>
+</html>
